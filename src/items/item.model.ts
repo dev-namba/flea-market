@@ -1,4 +1,4 @@
-import { ItemStatus } from "./item-status.enum";
+import { ItemStatus } from "../entities/item-status.enum";
 
 
 export interface Item {

@@ -1,5 +1,6 @@
-import { ItemStatus } from 'src/items/item-status.enum';
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { ItemStatus } from './item-status.enum';
 
 
 @Entity()
